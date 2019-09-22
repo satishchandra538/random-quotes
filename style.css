@@ -1,0 +1,44 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    min-height: 100vh;
+    background-color: #db622a;
+}
+.heading{
+    color: rgb(110, 49, 5);
+}
+.container{
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(250, 194, 153);
+    padding: 2rem;
+    flex: 0 0 60%;
+}
+.quote{
+    border-left: 3px solid #db622a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    margin: 20px;
+    color: brown;
+}
+.quoteauthor{
+    color:brown;
+    font-size: 25px;
+}
+#quotebtn{
+    background-color: rgb(253, 137, 54);
+    border: 2px solid #663a09;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 400;
+    color:white;
+    padding: 8px;
+}
+#quotebtn:hover{
+    background-color: rgb(139, 66, 14);
+}
